@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	min-height: 100%;
+}
+#keyboard {
+	border: 2px solid black;
+	margin: auto;
+	display: flex;
+	width: 750px;
+	flex-wrap: wrap;
+	font-size: 20px;
+}
+.k-key {
+	padding: 20px;
+	border: 1px solid black;
+	margin: 5px;
+}
+.active {
+	background-color: orange;
+	color: #fff;
+	transform: translate(0, 3px);
+}
